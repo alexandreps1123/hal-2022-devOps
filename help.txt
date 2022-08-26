@@ -29,4 +29,50 @@ Comando maven
 	
 	java -jar target/console-0.0.1-SNAPSHOT.jar - executar a aplicacao
 	
+
+Arquivo shell
+
+	start.sh
 	
+	Conteúdo:
+	
+		mvn clean
+	
+		mvn package
+	
+		java -jar target/console-0.0.1-SNAPSHOT.jar
+	Dar permissão de execução ao arquivo:
+		$ chmod +x start.sh
+		$ ./start.sh
+		
+Git
+	git init
+	git add .
+	git commit -m ""
+	git remote add origin <link>
+	git branch -M main
+	git push -u origin main
+	
+	vim .git/config
+	gedit .git/config
+	
+	
+
+		
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
