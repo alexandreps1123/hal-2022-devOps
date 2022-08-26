@@ -1,0 +1,32 @@
+semana04aula01
+
+Spring Initialzr
+	iniciar aplicação sem dependências
+	baixar e descompactar
+	
+VSCode
+	abrir a aplicação no VSCode
+	no terminal navegar até o reposítório da aplicação e digitar:
+	$ code .
+	
+Maven
+	instalar o maven
+
+Analisando o conteúdo do repositório da aplicação
+	target - possui os arquivos compilados, usando o maven
+	pom.xml - possui os detalhes do projeto maven, a forma como o binário será gerado e gestão de depencências utilizadas na aplicação
+	
+	mvnw - arquivo shell para linux
+	mvnw.cmd - versão para windowns
+	
+Comando maven
+
+	mvn spring-boot:run	- inicializar aplicação spring-boot
+	
+	mvn clean - limpa os dados da pasta target
+	
+	mvn package - compila e gera arquivo binário
+	
+	java -jar target/console-0.0.1-SNAPSHOT.jar - executar a aplicacao
+	
+	
